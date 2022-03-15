@@ -1,0 +1,134 @@
+[
+  {
+    "Category": "Resolution",
+    "Description": "分辨率参数设置",
+    "Params": [
+      {
+        "DisplayName": "开关",
+        "Name": "IsUsingResCal",
+        "Value": 0.0,
+        "Level": 1
+      },
+      {
+        "DisplayName": "宽度分辨率",
+        "Name": "WidthResolution",
+        "Value": 0.019,
+        "Level": 1
+      },
+      {
+        "DisplayName": "长度分辨率",
+        "Name": "HeightResolution",
+        "Value": 0.05,
+        "Level": 1
+      },
+      {
+        "DisplayName": "深度分辨率",
+        "Name": "DepthResolution",
+        "Value": 0.0001,
+        "Level": 1
+      }
+    ]
+  },
+  {
+    "Category": "ROISegment",
+    "Description": "ROI区域分割参数设置",
+    "Params": [
+      {
+        "DisplayName": "ROI分割最小阈值",
+        "Name": "ROISegMinThresh",
+        "Value": 2000.0,
+        "Level": 2
+      },
+      {
+        "DisplayName": "边界缩放尺寸",
+        "Name": "EgdeScaleSize",
+        "Value": 0.8,
+        "Level": 2
+      }
+    ]
+  },
+  {
+    "Category": "Dent",
+    "Description": "凹坑参数设置",
+    "Params": [
+      {
+        "DisplayName": "开关",
+        "Name": "IsUsingDentInspect",
+        "Value": 1.0,
+        "Level": 1
+      },
+      {
+        "DisplayName": "百分比",
+        "Name": "DentPercent",
+        "Value": 10.0,
+        "Level": 2
+      },
+      {
+        "DisplayName": "长度",
+        "Name": "DentLengthThresh",
+        "Value": 0.3,
+        "Level": 1
+      },
+      {
+        "DisplayName": "宽度",
+        "Name": "DentWidthThresh",
+        "Value": 0.3,
+        "Level": 1
+      },
+      {
+        "DisplayName": "深度",
+        "Name": "DentDepthThresh",
+        "Value": 0.1,
+        "Level": 1
+      }
+    ]
+  },
+  {
+    "Category": "Bulge",
+    "Description": "凸起参数设置",
+    "Params": [
+      {
+        "DisplayName": "开关",
+        "Name": "IsUsingBulgeInspect",
+        "Value": 1.0,
+        "Level": 1
+      },
+      {
+        "DisplayName": "百分比",
+        "Name": "BulgePercent",
+        "Value": 10.0,
+        "Level": 2
+      },
+      {
+        "DisplayName": "长度",
+        "Name": "BulgeLengthThresh",
+        "Value": 0.3,
+        "Level": 1
+      },
+      {
+        "DisplayName": "宽度",
+        "Name": "BulgeWidthThresh",
+        "Value": 0.3,
+        "Level": 1
+      },
+      {
+        "DisplayName": "深度",
+        "Name": "BulgeDepthThresh",
+        "Value": 0.1,
+        "Level": 1
+      }
+    ]
+  },
+  {
+    "Category": "数值",
+    "Description": "深度参数设置",
+    "Params": [
+      {
+        "DisplayName": "开关",
+        "Name": "IsUsingDentValueInspect",
+        "Value": 1.0,
+        "Level": 1
+      }
+    ]
+  }
+]
